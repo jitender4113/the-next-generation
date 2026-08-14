@@ -1,7 +1,7 @@
 import PageBanner from '../components/PageBanner.jsx';
 import ServiceSidebar from '../components/ServiceSidebar.jsx';
 import './servicePages.css';
-import sse from '../assets/ss5.png';
+import sse from '../assets/ss5.webp';
 
 
 function OverallStudyManagement() {

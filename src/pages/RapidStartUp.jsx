@@ -1,7 +1,7 @@
 import PageBanner from '../components/PageBanner.jsx';
 import ServiceSidebar from '../components/ServiceSidebar.jsx';
 import './servicePages.css';
-import ssd from '../assets/ss4.png';
+import ssd from '../assets/ss4.webp';
 
 
 function RapidStartUp() {

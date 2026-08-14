@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import navigation from '../data/navigation.js';
-import Hero_logo from '../assets/logo.png';
+import Hero_logo from '../assets/logo.webp';
 
 
 

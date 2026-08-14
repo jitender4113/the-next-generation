@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import PageBanner from '../components/PageBanner.jsx';
 import ServiceSidebar from '../components/ServiceSidebar.jsx';
 import './servicePages.css';
-import ssb from '../assets/ss2.png';
+import ssb from '../assets/ss2.webp';
 
 
 function SpecialisedSiteSupport() {

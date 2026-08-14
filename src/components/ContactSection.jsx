@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Hero_logo from '../assets/logo.png';
+import Hero_logo from '../assets/logo.webp';
 import { buildWhatsAppMessage, openWhatsApp } from '../utils/whatsapp.js';
 
 

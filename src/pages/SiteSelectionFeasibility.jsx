@@ -1,7 +1,7 @@
 import PageBanner from '../components/PageBanner.jsx';
 import ServiceSidebar from '../components/ServiceSidebar.jsx';
 import './servicePages.css';
-import ssa from '../assets/ss1.png';
+import ssa from '../assets/ss1.webp';
 
 function SiteSelectionFeasibility() {
   return (

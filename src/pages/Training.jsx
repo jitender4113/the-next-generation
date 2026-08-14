@@ -1,7 +1,7 @@
 import PageBanner from '../components/PageBanner.jsx';
 import ServiceSidebar from '../components/ServiceSidebar.jsx';
 import './servicePages.css';
-import ssc from '../assets/ss3.png';
+import ssc from '../assets/ss3.webp';
 
 
 function Training() {

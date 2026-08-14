@@ -1,7 +1,7 @@
 
 
 import { Link } from 'react-router-dom';
-import heroImage from '../assets/hero_image.png';
+import heroImage from '../assets/hero_image.webp';
 
 function HeroSlider() {
   return (

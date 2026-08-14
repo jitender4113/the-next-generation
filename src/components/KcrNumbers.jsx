@@ -31,7 +31,7 @@ function The Next GenerationNumbers() {
           </h4>
           <span className="section-divider" />
           <img
-            src="https://kcrindia.com/wp-content/uploads/2019/06/The Next Generation-Numbers.png"
+            src="https://kcrindia.com/wp-content/uploads/2019/06/The Next Generation-Numbers.webp"
             alt="The Next Generation Numbers"
             width="900"
             height="570"
