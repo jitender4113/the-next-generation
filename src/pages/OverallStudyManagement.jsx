@@ -16,6 +16,8 @@ function OverallStudyManagement() {
               className="service-detail-image"
               src={sse}
               alt="Overall study management"
+              loading="lazy"
+decoding="async"
             />
 
             <p>

@@ -16,6 +16,8 @@ function RapidStartUp() {
               className="service-detail-image"
               src={ssd}
               alt="Rapid Start-up"
+              loading="lazy"
+decoding="async"
             />
 
             <p>

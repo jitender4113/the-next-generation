@@ -11,6 +11,11 @@ function HeroSlider() {
           src={heroImage}
           alt="The Next Generation - Clinical Research"
           className="hero-image"
+          loading="eager"
+
+  fetchPriority="high"
+
+  decoding="async"
         />
 
         <Link to="/services" className="hero-know-more">

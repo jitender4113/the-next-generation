@@ -17,6 +17,8 @@ function SpecialisedSiteSupport() {
               className="service-detail-image"
               src={ssb}
               alt="Specialised Site Support"
+              loading="lazy"
+decoding="async"
             />
 
             <p>

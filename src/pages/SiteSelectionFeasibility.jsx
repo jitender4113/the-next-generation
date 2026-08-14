@@ -15,6 +15,8 @@ function SiteSelectionFeasibility() {
               className="service-detail-image"
               src={ssa}
               alt="Site Identification & Feasibility"
+              loading="lazy"
+decoding="async"
             />
 
             <p>

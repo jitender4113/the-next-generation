@@ -16,6 +16,8 @@ function Training() {
               className="service-detail-image"
               src={ssc}
               alt="Training"
+              loading="lazy"
+decoding="async"
             />
 
             <p>
