@@ -1,0 +1,123 @@
+/* ==========================================================================
+   About Us page — scoped styles, imported only by AboutUs.jsx
+   Reuses the same color/typography variables defined in src/index.css
+   ========================================================================== */
+
+.about-title-wrapper {
+  background: #fafafa;
+  border-bottom: 1px solid var(--color-border, #e6e6e6);
+  padding: 34px 0;
+  text-align: center;
+}
+
+.about-title-wrapper h1 {
+  margin: 0;
+  font-size: 40px;
+  color: var(--color-heading, #352c66);
+}
+
+.section-about-page {
+  padding: 60px 0 70px;
+}
+
+.about-container {
+  max-width: 860px;
+}
+
+.about-heading {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 24px;
+  color: var(--color-heading, #352c66);
+}
+
+.about-lead {
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 1.6;
+  color: var(--color-heading, #352c66);
+  margin-bottom: 20px;
+}
+
+.section-about-page p {
+  margin-bottom: 18px;
+  line-height: 1.8;
+}
+
+.about-subheading {
+  font-size: 22px;
+  margin-top: 34px;
+  margin-bottom: 14px;
+  color: var(--color-heading, #352c66);
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.about-subheading::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  height: 3px;
+  background: var(--color-accent, #13a3d5);
+}
+
+.about-quote {
+  font-style: italic;
+  font-size: 18px;
+  color: var(--color-link, #1d70ba);
+  border-left: 3px solid var(--color-accent, #13a3d5);
+  padding-left: 18px;
+  margin: 18px 0 28px;
+}
+
+.about-list {
+  margin: 0 0 10px;
+  padding-left: 22px;
+}
+
+.about-list li {
+  margin-bottom: 12px;
+  line-height: 1.7;
+  padding-left: 6px;
+}
+
+.about-footnote {
+  margin-top: 30px;
+  font-weight: 600;
+  color: var(--color-heading, #352c66);
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .about-title-wrapper h1 {
+    font-size: 30px;
+  }
+
+  .about-heading {
+    font-size: 24px;
+  }
+
+  .about-lead {
+    font-size: 17px;
+  }
+
+  .about-subheading {
+    font-size: 19px;
+  }
+
+  .section-about-page {
+    padding: 40px 0 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-title-wrapper {
+    padding: 24px 0;
+  }
+
+  .about-title-wrapper h1 {
+    font-size: 24px;
+  }
+}

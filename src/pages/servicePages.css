@@ -1,0 +1,320 @@
+/* ==========================================================================
+   Shared styles for: Services hub, service detail pages, Contact Us.
+   Imported only by the new page components — does not touch index.css or
+   AboutUs.css, so Home and About Us are unaffected.
+   ========================================================================== */
+
+.page-title-wrapper {
+  background: #fafafa;
+  border-bottom: 1px solid var(--color-border, #e6e6e6);
+  padding: 34px 0;
+  text-align: center;
+}
+
+.page-title-wrapper h1 {
+  margin: 0;
+  font-size: 40px;
+  color: var(--color-heading, #352c66);
+}
+
+@media screen and (max-width: 768px) {
+  .page-title-wrapper h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .page-title-wrapper {
+    padding: 24px 0;
+  }
+  .page-title-wrapper h1 {
+    font-size: 24px;
+  }
+}
+
+/* ---------------------------------------------------------------------- */
+/* Generic single-column content page (Services hub)                       */
+/* ---------------------------------------------------------------------- */
+
+.simple-page-section {
+  padding: 60px 0 70px;
+}
+
+.simple-page-content {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.simple-page-content p {
+  line-height: 1.8;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+/* Services hub — link cards to the four core services */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 14px;
+  padding: 30px 20px;
+  background: #fafafa;
+  border: 1px solid var(--color-border, #e6e6e6);
+  border-radius: 6px;
+  color: var(--color-heading, #352c66) !important;
+  transition: all 0.2s ease;
+}
+
+.service-card:hover {
+  background: var(--color-heading, #352c66);
+  color: #fff !important;
+  transform: translateY(-4px);
+}
+
+.service-card-icon {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--color-accent, #13a3d5);
+  color: #fff;
+  font-size: 18px;
+}
+
+.service-card h4 {
+  margin: 0;
+  font-size: 16px;
+  color: inherit;
+}
+
+@media screen and (max-width: 900px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------------------------------------------------------------------- */
+/* Two-column service detail layout (content + sidebar)                    */
+/* ---------------------------------------------------------------------- */
+
+.service-detail-section {
+  padding: 50px 0 70px;
+}
+
+.service-detail-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 50px;
+  align-items: start;
+}
+
+.service-detail-main h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.service-detail-main p {
+  line-height: 1.8;
+  margin-bottom: 18px;
+}
+
+.service-detail-main ul {
+  margin: 0 0 20px;
+  padding-left: 22px;
+}
+
+.service-detail-main ul li {
+  line-height: 1.7;
+  margin-bottom: 10px;
+  padding-left: 4px;
+}
+
+.service-detail-image {
+  width: 100%;
+  margin-bottom: 26px;
+  border: 5px solid #f0f0f0;
+  border-radius: 4px;
+}
+
+.service-block {
+  margin-bottom: 30px;
+}
+
+.service-block h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.read-more-link {
+  display: inline-block;
+  margin-top: 4px;
+  font-weight: 600;
+  color: var(--color-accent, #13a3d5);
+}
+
+.read-more-link:hover {
+  color: var(--color-link, #1d70ba);
+}
+
+/* ---------------------------------------------------------------------- */
+/* Sidebar widget (Get Instant Quote + Our Services)                       */
+/* ---------------------------------------------------------------------- */
+
+.service-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.sidebar-widget {
+  border: 1px solid var(--color-border, #e6e6e6);
+  border-radius: 6px;
+  padding: 24px;
+  background: #fafafa;
+}
+
+.sidebar-widget h4 {
+  margin: 0 0 18px;
+  font-size: 18px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--color-accent, #13a3d5);
+  color: var(--color-heading, #352c66);
+}
+
+.sidebar-widget .wpcf7-form p {
+  margin-bottom: 12px;
+}
+
+.sidebar-label {
+  display: none;
+}
+
+.sidebar-widget select.wpcf7-form-control {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--color-heading, #352c66);
+  border-radius: 3px;
+  background: #fff;
+  color: var(--color-heading, #352c66);
+  font-family: var(--font-body);
+  font-size: 14px;
+}
+
+.sidebar-widget .wpcf7-form-control {
+  border-color: var(--color-heading, #352c66);
+  color: var(--color-heading, #352c66);
+}
+
+.sidebar-submit-row {
+  text-align: center;
+}
+
+.sidebar-widget .wpcf7-submit {
+  width: 100%;
+  padding: 12px !important;
+}
+
+.sidebar-services ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-services > ul > li {
+  border-bottom: 1px solid var(--color-border, #e6e6e6);
+}
+
+.sidebar-services > ul > li:last-child {
+  border-bottom: none;
+}
+
+.sidebar-services > ul > li > a {
+  display: block;
+  padding: 10px 0;
+  font-weight: 600;
+  color: var(--color-heading, #352c66);
+}
+
+.sidebar-services > ul > li > a:hover {
+  color: var(--color-accent, #13a3d5);
+}
+
+.sidebar-services ul ul {
+  padding-left: 16px;
+  margin-bottom: 8px;
+}
+
+.sidebar-services ul ul li a {
+  font-weight: 400;
+  font-size: 14px;
+  padding: 6px 0;
+  color: var(--color-link, #1d70ba);
+}
+
+@media screen and (max-width: 900px) {
+  .service-detail-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------------------------------------------------------------------- */
+/* Contact Us page                                                          */
+/* ---------------------------------------------------------------------- */
+
+.contact-us-section {
+  padding: 60px 0 70px;
+}
+
+.contact-us-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: start;
+  margin-bottom: 50px;
+}
+
+.contact-us-details p {
+  margin: 0 0 16px;
+  line-height: 1.8;
+}
+
+.contact-us-map iframe {
+  width: 100%;
+  height: 320px;
+  border: 0;
+  border-radius: 6px;
+}
+
+.contact-us-form-wrap {
+  max-width: 860px;
+  margin: 0 auto;
+  padding-top: 20px;
+  border-top: 1px solid var(--color-border, #e6e6e6);
+}
+
+.contact-us-form-wrap h3 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width: 900px) {
+  .contact-us-grid {
+    grid-template-columns: 1fr;
+  }
+}
