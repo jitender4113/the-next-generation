@@ -166,14 +166,19 @@ function Header({ onOpenQuote, onOpenSearch }) {
         .kcr-header__logo {
           display: flex;
           align-items: center;
+          justify-content: center;
           flex-shrink: 0;
           line-height: 0;
+          padding: 4px 0;
+          box-sizing: border-box;
         }
 
         .kcr-header__logo img {
           height: 82px;
           width: auto;
+          max-height: 92px;
           display: block;
+          object-fit: contain;
           transition: height 0.25s ease;
         }
 
@@ -416,12 +421,20 @@ function Header({ onOpenQuote, onOpenSearch }) {
           //   height: 40px;
           // }
 
+          .kcr-header__logo {
+            padding: 3px 0;
+          }
+
           .kcr-header__logo img {
-  height: 92px;
-  width: auto;
-  max-width: 280px;
-  object-fit: contain;
-}
+            height: 64px;
+            width: auto;
+            max-width: 280px;
+            object-fit: contain;
+          }
+
+          .kcr-header.is-scrolled .kcr-header__logo img {
+            height: 50px;
+          }
 
           .kcr-nav {
             display: none;
@@ -573,8 +586,8 @@ function Header({ onOpenQuote, onOpenSearch }) {
           <img
             src={Hero_logo}
             alt="The Next Generation logo"
-            width="234"
-            height="90"
+            width="300"
+            height="179"
           />
         </Link>
 

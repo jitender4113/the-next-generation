@@ -14,9 +14,12 @@ function Training() {
           <div className="service-detail-main">
             <img
               className="service-detail-image"
+              width="1536"
+              height="1024"
               src={ssc}
               alt="Training"
-              loading="lazy"
+              loading="eager"
+              fetchPriority="high"
 decoding="async"
             />
 

@@ -48,8 +48,9 @@ function ContactSection() {
           <img
             src={Hero_logo}
             alt="The Next Generation logo"
-            width="234"
-            height="90"
+            width="300"
+            height="179"
+            loading="lazy"
             decoding="async"
           />
           <p>343, Baba Hirday Ram Colony, Mujesar, Sector-24, Faridabad – 121005, Haryana, India</p>

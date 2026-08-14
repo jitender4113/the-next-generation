@@ -15,9 +15,12 @@ function SpecialisedSiteSupport() {
           <div className="service-detail-main">
             <img
               className="service-detail-image"
+              width="936"
+              height="562"
               src={ssb}
               alt="Specialised Site Support"
-              loading="lazy"
+              loading="eager"
+              fetchPriority="high"
 decoding="async"
             />
 

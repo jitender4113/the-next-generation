@@ -22,6 +22,8 @@ function TeamSection() {
             alt="Mr. Chandan Gupta"
             width="150"
             height="150"
+            loading="lazy"
+            decoding="async"
           />
           <h4 className="team-name">Mr. Chandan Gupta, Director Site Operations</h4>
           <p className="team-role">

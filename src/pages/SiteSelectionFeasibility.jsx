@@ -13,9 +13,12 @@ function SiteSelectionFeasibility() {
           <div className="service-detail-main">
             <img
               className="service-detail-image"
+              width="1078"
+              height="859"
               src={ssa}
               alt="Site Identification & Feasibility"
-              loading="lazy"
+              loading="eager"
+              fetchPriority="high"
 decoding="async"
             />
 

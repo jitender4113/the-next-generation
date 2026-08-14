@@ -14,9 +14,12 @@ function RapidStartUp() {
           <div className="service-detail-main">
             <img
               className="service-detail-image"
+              width="1568"
+              height="1003"
               src={ssd}
               alt="Rapid Start-up"
-              loading="lazy"
+              loading="eager"
+              fetchPriority="high"
 decoding="async"
             />
 

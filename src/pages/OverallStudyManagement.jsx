@@ -14,9 +14,12 @@ function OverallStudyManagement() {
           <div className="service-detail-main">
             <img
               className="service-detail-image"
+              width="1536"
+              height="1024"
               src={sse}
               alt="Overall study management"
-              loading="lazy"
+              loading="eager"
+              fetchPriority="high"
 decoding="async"
             />
 
