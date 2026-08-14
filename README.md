@@ -1,4 +1,4 @@
-# Komplett Clinical Research — React + Vite
+# The Next Generation Clinical Research — React + Vite
 
 A React/Vite rebuild of the original WordPress homepage (`kcrindia.com`), keeping the same
 layout, colors, typography, content, and interactive elements.
