@@ -47,11 +47,10 @@ function ContactUs() {
           <div className="contact-us-grid">
             <div className="contact-us-details">
               <p>
-                343, Baba Hirday Ram Colony, Mujesar, Sector-24, Faridabad – 121005, Haryana,
-                India
+                411 Dalbir Nagar bahadurgarh, Haryana - 124507
               </p>
               <p>
-                Mobile: <strong>+91-8700068248</strong>
+                Mobile: <strong>+91-8130606117</strong>,<br/><strong>+91 7827413184</strong>
                 <br />
                 Email: <strong>thenextgenservice@gmail.com</strong>
               </p>
@@ -63,13 +62,13 @@ function ContactUs() {
             </div>
 
             <div className="contact-us-map">
-              <iframe
-                title="The Next Generation location"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14042.880043001565!2d77.3059094!3d28.3673134!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5f5ca5f24a5d210!2sKomplett+Clinical+Research!5e0!3m2!1sen!2sin!4v1561473192570!5m2!1sen!2sin"
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
-            </div>
+  <iframe
+    title="The Next Generation location"
+    src="https://www.google.com/maps?q=28.6882086,76.9394851&z=17&output=embed"
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  ></iframe>
+</div>
           </div>
 
           <div className="contact-us-form-wrap">

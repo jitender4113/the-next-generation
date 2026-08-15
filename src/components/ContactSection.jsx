@@ -53,17 +53,19 @@ function ContactSection() {
             loading="lazy"
             decoding="async"
           />
-          <p>343, Baba Hirday Ram Colony, Mujesar, Sector-24, Faridabad – 121005, Haryana, India</p>
           <p>
-            Mobile: <strong>+91-8130606117</strong>
-            <br />
-            Email: <strong>thenextgenservice@gmail.com</strong>
-          </p>
-          <p>
-            Working Hours:
-            <br />
-            Mon-Sat : 9:00AM-6:00PM
-          </p>
+                411 Dalbir Nagar bahadurgarh, Haryana - 124507
+              </p>
+              <p>
+                Mobile: <strong>+91-8130606117</strong>,<br/><strong>+91 7827413184</strong>
+                <br />
+                Email: <strong>thenextgenservice@gmail.com</strong>
+              </p>
+              <p>
+                Working Hours:
+                <br />
+                Mon-Sat : 10:00AM-8:00PM
+              </p>
         </div>
 
         <div className="contact-form-wrap">

@@ -27,10 +27,10 @@ function TeamSection() {
           />
           <h4 className="team-name">Mr. Chandan Gupta, Director Site Operations</h4>
           <p className="team-role">
-            <strong>(The Next Generation)</strong>
+            <strong>(The next generation clincal research services Pvt.ltd)</strong>
           </p>
           <p className="team-bio">
-            Ms. Tanwar is responsible for the oversight and management of clinical research
+            Mr. Chandan Gupta is responsible for the oversight and management of clinical research
             studies undertaken by The Next Generation and hospitals to ensure quality and compliance. Ms. Tanwar
             received her master's degree from the University of Rohtak, India. With good
             experience in the clinical research industry, she has managed many global and
