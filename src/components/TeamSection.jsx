@@ -30,11 +30,9 @@ function TeamSection() {
             <strong>(The next generation clincal research services Pvt.ltd)</strong>
           </p>
           <p className="team-bio">
-            Mr. Chandan Gupta is responsible for the oversight and management of clinical research
-            studies undertaken by The Next Generation and hospitals to ensure quality and compliance. Ms. Tanwar
-            received her master's degree from the University of Rohtak, India. With good
-            experience in the clinical research industry, she has managed many global and
-            national clinical trials in various therapeutic areas.
+            Mr. Gupta is responsible for the oversight and management of clinical research
+            studies undertaken by The Next Generation and hospitals to ensure quality and compliance. Mr gupta graduated in desh Bhagat university Punjab with good experience in the clinical Research industry he has managed many global and national clincal trials in various therapeutics areas.
+
           </p>
         </div>
       </section>
