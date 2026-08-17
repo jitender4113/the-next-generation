@@ -31,7 +31,7 @@ function TeamSection() {
           </p>
           <p className="team-bio">
             Mr. Gupta is responsible for the oversight and management of clinical research
-            studies undertaken by The Next Generation and hospitals to ensure quality and compliance. Mr gupta graduated in desh Bhagat university Punjab with good experience in the clinical Research industry he has managed many global and national clincal trials in various therapeutics areas.
+            studies undertaken by The Next Generation and hospitals to ensure quality and compliance. Mr Gupta graduated in desh Bhagat university Punjab with good experience in the clinical Research industry he has managed many global and national clincal trials in various therapeutics areas.
 
           </p>
         </div>
